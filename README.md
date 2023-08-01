@@ -29,7 +29,7 @@ These instructions will help you set up the TMK Parking App on your local machin
 4. Start the development server: `npm start`
 5. In package.json file at start, add the following: `set PORT=4000 && react-scripts-start`
 
-The app should now be running locally at `http://localhost:3000`.
+The app should now be running locally at `http://localhost:4000`.
 
 ### Configuration
 
