@@ -18,15 +18,16 @@ These instructions will help you set up the TMK Parking App on your local machin
 
 ### Prerequisites
 
-- Node.js (version X.X.X)
-- npm (version X.X.X)
+- Node.js (version 20.0.4)
+- npm (version 9.5.1)
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/tmk-parking-app.git`
-2. Change to the app's directory: `cd tmk-parking-app`
+1. Clone the repository: `git clone https://github.com/Trevor-Kayeyia-Madara/t-m-k-parking-react.git`
+2. Change to the app's directory: `cd tmk-parking-app-react`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
+5. In package.json file at start, add the following: `set PORT=4000 && react-scripts-start`
 
 The app should now be running locally at `http://localhost:3000`.
 
