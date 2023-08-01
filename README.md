@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# TMK PARKING APP (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![TMK Parking App Logo](app_logo.png)
 
-## Available Scripts
+TMK Parking App is a web application built using React that aims to simplify parking management for both parking lot owners and customers. The app provides an easy-to-use interface for users to find available parking spots, book them in advance, and manage their parking reservations.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Booking System: Customers can search for available parking spots, book them for specific dates and times, and make payments.
+- User Dashboard: Each user has a personalized dashboard that displays their bookings, reservations, and account information.
+- Ratings and Reviews: Customers can leave ratings and reviews for parking spots they have used, helping others make informed decisions.
+- Admin Panel: An admin panel allows administrators to manage users, parking spots, and reservations effectively.
+- Notifications: Users receive notifications for booking confirmations, cancellations, and other important updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These instructions will help you set up the TMK Parking App on your local machine for development and testing purposes.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (version X.X.X)
+- npm (version X.X.X)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone https://github.com/yourusername/tmk-parking-app.git`
+2. Change to the app's directory: `cd tmk-parking-app`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app should now be running locally at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Configuration
 
-### `npm run eject`
+Before running the app, ensure that you have set up the required environment variables. Check the `.env.example` file for the list of variables needed and create a `.env` file in the root directory with the appropriate values.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We welcome contributions to improve the TMK Parking App. If you find any issues or have suggestions, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m "Add your commit message here"`.
+4. Push the changes to your forked repository: `git push origin feature/your-feature-name`.
+5. Open a pull request on the main repository and describe your changes in detail.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We will review your contribution and merge it if it meets our guidelines and aligns with the project's objectives.
 
-## Learn More
+Thank you for contributing to the TMK Parking App!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We would like to extend our gratitude to the following individuals and projects for their contributions and inspiration:
 
-### Code Splitting
+- Hat tip to anyone whose code was used as a reference or inspiration.
+- Special thanks to the TMK Parking App development team for their hard work and dedication in creating this application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+For any inquiries or support, please contact the development team at <tmk-parking-app@example.com>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Happy parking with TMK Parking App!
 
-### Advanced Configuration
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the automated tests, execute the following command:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm test
